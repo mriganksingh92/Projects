@@ -2,8 +2,7 @@
 The Goal of this project is to create a Model that can classify tweets as disaster related or not.
 It is a good project to understand how Natural  Language Processing works, how does one transforms text data into meaningful numerical data.
 
-
- A **binary classification** model is developed using a dataset of 10,000 labelled tweets .
-- Performed text pre-processing: tweet cleaning, missing values, stemming etc. to prepare raw tweet data
--	Evaluated F1 score performance of different models like Bag-of-Words, Naïve Bayes, RNN, LSTM, Transformers and developed a custom Ensemble model utilizing multiple transformer models for final predictions after fine-tuning.
--	Achieved F1 score of 0.8443 on competition test set, securing a global leaderboard rank 31 out of ~ 900 teams
+files :
+- nlp-disaster-tweets.ipynb : jupyter notebook
+- train.csv : training dataset
+- test.csv : test dataset
